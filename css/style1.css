@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ section{
+      width: 100%;
+      background: rgb(169, 212, 212);
+      display: flex;
+ }
+
+ section div{
+     padding: 20px;
+     border: 1px solid black;
+ }
+
+ .flexone{
+     flex: 1;
+ }
+
+ .flextwo{
+    flex: 2;
+}
+
+.flexthree{
+    flex: 1;
+}

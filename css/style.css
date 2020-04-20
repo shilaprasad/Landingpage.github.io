@@ -1,0 +1,49 @@
+
+ .bannerform{
+    width: 100%;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+}
+.bnrfrm{width: 100%;height: auto;float: right;background-color: rgba(0, 0, 0, 0.86);padding: 20px 30px;max-width: 390px;}
+.bnrtext{width: 100%;height: auto;float: left;margin-bottom: 13px;}
+.bnrtext h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+.bnrtext ul{width: 100%;height: auto;float: left;list-style: none;margin: 0px;padding: 0px;}
+.bnrtext ul li{width: 100%;height: auto;float: left;color: rgba(255, 255, 255, 0.87);position: relative;padding-left: 22px;margin-bottom: 10px;font-size: 13px;}
+.bnrtext ul li:before{content:"\f046";font-family: FontAwesome; position: absolute;left: 0;}
+.bnrqur{width: 100%; height: auto; float: left;}
+.bnrqur ul{width: 100%;height: auto;float: left;list-style: none;margin: 0px;padding: 0px;}
+.bnrqur ul li{width: 100%;height: auto;float: left;margin-bottom: 13px;}
+.bnrqur ul li input{width: 100%;height: auto;float: left;padding: 12px;border: 0px;}
+.bnrqur ul li select{width: 100%;height: auto;float: left;padding: 12px;border: 0px;}
+.bnrqur ul li input[type="submit"]{
+    background-color: #db5104;
+    border: 0px;
+    color: #fff;
+    font-size: 19px;
+    border-radius: 34px;
+    width: auto;
+    float: none;
+    padding: 9px 33px;
+    margin: auto;
+    cursor: pointer;
+}
+.bnrqur ul li input[type="submit"]:hover{
+    background-color: #004e95;
+}
+.bnrqur ul li:last-child{ text-align:center;}
+.banbotmtext{width: 100%;height: auto;float: left;padding-bottom: 30px;}
+.banbotmtext h3{font-family: 'Playfair Display', serif;font-size: 76px;color: #f36f21; margin-top: -181px;max-width: 770px;font-weight: bold;}
+.banbotmtext h4{font-family: 'Playfair Display', serif;font-size: 150px;color: #f36f21;font-weight: 600;position: relative;}
+.banbotmtext h4:after{content:"";width: 45%;height: 3px;background-color: #f36f21;position: absolute;bottom: 24px;margin-left: -18px;}
+.section02{background-image: url(../imges/images.jpg);background-repeat: no-repeat;background-size: cover;background-position: center top;float: left;width: 100%;}
+.leftsec02{
+    padding-top: 45px;
+    padding-bottom: 70px;
+}
